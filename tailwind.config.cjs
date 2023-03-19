@@ -1,6 +1,4 @@
 const colors = require("tailwindcss/colors");
-
-const colors = require("tailwindcss/colors");
 let newcolors = {
     mongo: {
         100: "#6ce196",
