@@ -7,7 +7,6 @@ export const POST = async ({ request }) => {
         return json(request);
 
     } catch (error) {
-        return json(request);
+        throw error(400, { error: true, msg: e });;
     }
-
 }
